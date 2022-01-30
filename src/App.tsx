@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet';
+import ToDoList from './components/ToDoList';
 import GlobalStyle from './styles/GlobalStyle';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         />
       </Helmet>
       <GlobalStyle />
+      <ToDoList />
     </>
   );
 }
