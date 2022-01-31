@@ -10,6 +10,9 @@ const ToDoList = () => {
   const handleChange = (event: React.FormEvent<HTMLSelectElement>) => {
     setCategory(event.currentTarget.value as Categories);
   };
+
+  localStorage.setItem('category', category);
+
   return (
     <div>
       <h1>Todo List</h1>
