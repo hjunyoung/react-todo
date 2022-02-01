@@ -2,7 +2,6 @@ import { useRecoilValue } from 'recoil';
 import ToDoForm from './ToDoForm';
 import { toDoSelector } from '../atoms';
 import ToDos from './ToDos';
-import React from 'react';
 import Category from './Category';
 
 const ToDoList = () => {
